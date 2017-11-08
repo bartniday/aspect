@@ -96,6 +96,7 @@ namespace aspect
 
       private:
         std::set<types::boundary_id> boundary_ids;
+        bool use_spherical_unit_vectors;
     };
   }
 }
